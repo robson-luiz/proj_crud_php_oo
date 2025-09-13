@@ -36,16 +36,18 @@ proj_crud_php_oo/
    ```bash
    git clone https://github.com/robson-luiz/proj_crud_php_oo.git
    ```
-2. Importe o script SQL abaixo no seu MySQL para criar o banco e a tabela:
-   ```sql
-   CREATE DATABASE IF NOT EXISTS practice_crud CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-   USE practice_crud;
-   CREATE TABLE IF NOT EXISTS users (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       name VARCHAR(100) NOT NULL,
-       email VARCHAR(100) NOT NULL
-   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-   ```
+2. Importe o script SQL abaixo no seu MySQL para criar o banco e a tabela **ou** simplesmente importe o backup do banco que está salvo na pasta `db` do projeto:
+    - Para importar manualmente, use o script:
+       ```sql
+       CREATE DATABASE IF NOT EXISTS practice_crud CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+       USE practice_crud;
+       CREATE TABLE IF NOT EXISTS users (
+             id INT AUTO_INCREMENT PRIMARY KEY,
+             name VARCHAR(100) NOT NULL,
+             email VARCHAR(100) NOT NULL
+       ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+       ```
+    - Para importar o backup, utilize seu gerenciador de banco (phpMyAdmin, MySQL Workbench, etc.) e selecione o arquivo `.sql` da pasta `db`.
 3. Configure o acesso ao banco em `conection/Connection.php` (usuário, senha, host).
 4. Execute o projeto em um servidor local (XAMPP, LAMP, WAMP, etc.) e acesse `index.php` pelo navegador.
 
