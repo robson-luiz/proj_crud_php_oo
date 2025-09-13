@@ -3,7 +3,7 @@
 
 Este projeto é um CRUD (Create, Read, Update, Delete) simples para gerenciamento de usuários, desenvolvido em PHP orientado a objetos, utilizando MySQL, HTML, CSS e JavaScript. O objetivo é servir como base para estudos e prática de conceitos fundamentais de desenvolvimento web.
 
-![Exemplo de tela do CRUD](./images/proj_crud_php_oo.png.png)
+![Exemplo de tela do CRUD](images/proj_crud_php_oo.png)
 
 ## Tecnologias Utilizadas
 - PHP (POO)
