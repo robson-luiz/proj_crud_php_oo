@@ -1,0 +1,266 @@
+.pagination {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 16px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.pagination a {
+    background: #e0e0e0;
+    color: #1976d2;
+    padding: 8px 14px;
+    border-radius: 4px;
+    margin: 0 2px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.pagination a:hover {
+    background: #bdbdbd;
+}
+/*
+-----------------------------
+  PAGINAÇÃO
+-----------------------------
+Estiliza o container de paginação, links e página ativa.
+*/
+.pagination .active {
+    background: #1976d2;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    margin: 0 2px;
+    font-weight: bold;
+}
+.btn-delete {
+    background: #e53935;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(229,57,53,0.08);
+    transition: background 0.2s;
+    margin-left: 10px;
+    display: inline-block;
+}
+.btn-delete:hover {
+    background: #b71c1c;
+    text-decoration: none;
+}
+.btn-view {
+    background: #84837f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(145, 142, 136, 0.08);
+    transition: background 0.2s;
+
+/*
+-----------------------------
+  BOTÕES DE AÇÃO
+-----------------------------
+Estiliza os botões de ação: Delete, Visualizar, Editar, Voltar, etc.
+*/
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.btn-view:hover {
+    background: #b5b1aa;
+}
+
+.btn-view:hover, .btn-right:hover {
+    text-decoration: none;
+}
+/* Estilo para o container de detalhes do usuário */
+.user-details {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px 24px 40px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    font-size: 18px;
+    color: #333;
+}
+
+.user-details p {
+    margin: 12px 0;
+    padding: 0;
+}
+
+.titulo-crud {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/* Barra de ações acima da tabela */
+.btn-right {
+     background: #43a047;
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 4px;
+     text-decoration: none;
+     font-weight: bold;
+     box-shadow: 0 2px 4px rgba(67,160,71,0.08);
+     transition: background 0.2s;
+}
+.btn-right:hover {
+     background: #388e3c;
+}
+
+/*
+-----------------------------
+  CONTAINER DE DETALHES DO USUÁRIO
+-----------------------------
+Estiliza o bloco que mostra os detalhes do usuário na visualização.
+*/
+.actions-bar {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo-crud {
+    width: 80%;
+    margin: 30px auto 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+-----------------------------
+  TÍTULO PRINCIPAL
+-----------------------------
+Centraliza e estiliza o título principal das páginas.
+*/
+.btn-right {
+    background: #43a047;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(67,160,71,0.08);
+    transition: background 0.2s;
+
+/*
+-----------------------------
+  BARRA DE AÇÕES
+-----------------------------
+Alinha os botões de ação acima da tabela.
+*/
+}
+.btn-right:hover {
+    background: #388e3c;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+/*
+-----------------------------
+  TABELA DE USUÁRIOS
+-----------------------------
+Estiliza a tabela de listagem dos usuários.
+*/
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+}
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+
+/*
+-----------------------------
+  LINKS GERAIS
+-----------------------------
+Estiliza links padrão do sistema.
+*/
+    border-bottom: 1px solid #eee;
+}
+th {
+    background: #f7f7f7;
+    color: #555;
+}
+tr:hover {
+    background: #f0f8ff;
+
+/*
+-----------------------------
+  FORMULÁRIOS
+-----------------------------
+Estiliza os formulários de cadastro e edição.
+*/
+}
+a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+label {
+    display: block;
+    margin-bottom: 12px;
+    color: #333;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background: #1976d2;
+    color: #fff;
+
+/*
+-----------------------------
+  BODY E TÍTULOS
+-----------------------------
+Estiliza o corpo da página e títulos principais.
+*/
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #1565c0;
+}
