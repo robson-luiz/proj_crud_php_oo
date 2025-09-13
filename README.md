@@ -1,4 +1,4 @@
-
+<a href="README_en.md" title="English version"><img src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags/svg/us.svg" alt="English" width="24" style="vertical-align:middle;margin-right:8px;"></a>
 # CRUD Usuários - PHP Orientado a Objetos
 
 Este projeto é um CRUD (Create, Read, Update, Delete) simples para gerenciamento de usuários, desenvolvido em PHP orientado a objetos, utilizando MySQL, HTML, CSS e JavaScript. O objetivo é servir como base para estudos e prática de conceitos fundamentais de desenvolvimento web.
