@@ -3,7 +3,7 @@
 
 Este projeto é um CRUD (Create, Read, Update, Delete) simples para gerenciamento de usuários, desenvolvido em PHP orientado a objetos, utilizando MySQL, HTML, CSS e JavaScript. O objetivo é servir como base para estudos e prática de conceitos fundamentais de desenvolvimento web.
 
-![Exemplo de tela do CRUD](images/imagem_crud.png)
+![Exemplo de tela do CRUD](./images/proj_crud_php_oo.png.png)
 
 ## Tecnologias Utilizadas
 - PHP (POO)
@@ -55,9 +55,6 @@ proj_crud_php_oo/
 - **Editar:** Clique em "Editar" para modificar os dados de um usuário.
 - **Excluir:** Clique em "Delete" para remover um usuário.
 - **Paginação:** Se houver mais de 6 usuários, utilize a navegação de páginas.
-
-## Contribuição
-Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias!
 
 ## Licença
 Este projeto é livre para uso e modificação. Escolha a licença que preferir (MIT, GPL, etc.).
